@@ -7,7 +7,7 @@ Recently I bought a macbook pro with retina display and I realized that in some 
 
 ![Retina Display Images]({{ site.url }}/images/posts/retina-display-images.png)
 
-### Pixels
+## Pixels
 
 Let’s assume the following code
 
@@ -19,9 +19,9 @@ The above HTML code will show us on the screen an image of 100px by 100px (CSS p
 
 ![Pixel Density]({{ site.url }}/images/posts/pixel-density.png)
 
-### Resizing Images
+## Resizing Images
 
-#### 1. Single image with double size
+### 1. Single image with double size
 
 Suppose we need to display an image of 100px by 100px in our website. To make it work well on a retina display we need an image of 200px by 200px and resize it using CSS.
 
@@ -42,7 +42,7 @@ We could make it this way as well.
 
 Both work fine but there is best ways to do it. If you are using a non-retina display, why do you need to load a double size image? You don’t! Let’s see the next examples.
 
-#### 2. CSS: -webkit-image-set
+### 2. CSS: -webkit-image-set
 
 This option is very useful and work well with image sprites. The browser is also smart enough to know which image should download. It means that who has retina display should spend more data usage.
 
@@ -56,7 +56,7 @@ This option is very useful and work well with image sprites. The browser is also
 }
 ```
 
-#### 3. HTML: srcset
+### 3. HTML: srcset
 
 The srcset attribute on img is very similar to -webkit-image-set. On browsers without srcset support, the value of the src attribute will be used. On regular resolution displays, the 1x variant of the srcset will be used. On displays with 2 device pixels per CSS pixel, the 2x variant of the srcset will be used.
 
@@ -64,7 +64,7 @@ The srcset attribute on img is very similar to -webkit-image-set. On browsers wi
 <img src="image.png" srcset="image.png 1x, image@2x.png 2x" />
 ```
 
-#### 4. Using JavaScript to replace all the images
+### 4. Using JavaScript to replace all the images
 
 Replace low resolution images with double resolution images can take a long time. We can use JavaScript to replace all images in a webpage. I’ve made my own script and worked like a charm.
 
@@ -88,19 +88,19 @@ Replace low resolution images with double resolution images can take a long time
 })();
 ```
 
-### Network test
+## Network test
 
 The test is very simple and basically we can say that who has a computer with a retina display is spending more data usage.
 
-#### Non-retina display
+### Non-retina display
 
 ![Non-retina display]({{ site.url }}/images/posts/network-non-retina-display.png)
 
-#### Retina display
+### Retina display
 
 ![Retina Display]({{ site.url }}/images/posts/network-retina-display.png)
 
-### Conclusion
+## Conclusion
 
 We have seen some ways on how to implement images with good definition on devices with retina displays. If you are a web designer or just want to improve your knowledge, I really recommend these techniques.
 

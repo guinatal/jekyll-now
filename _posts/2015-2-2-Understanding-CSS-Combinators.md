@@ -20,7 +20,7 @@ We have just seen the general sibling selector and it can be very useful. Let’
 
 ![Combinators]({{ site.url }}/images/posts/Combinators.png)
 
-### Descendant Selector
+## Descendant Selector
 
 The descendant selector matches all elements that are descendants of a specified element. The following example selects all p elements inside div elements:
 
@@ -48,7 +48,7 @@ div p {
 
 ![Descendant Selector]({{ site.url }}/images/posts/Descendant-Selector.png)
 
-### Child Selector
+## Child Selector
 
 The child selector selects all elements that are the immediate children of a specified element. The following example selects all p elements that are immediate children of a div element:
 
@@ -76,7 +76,7 @@ div > p {
 
 ![Child Selector]({{ site.url }}/images/posts/Child-Selector.png)
 
-### Adjacent Sibling Selector
+## Adjacent Sibling Selector
 
 The adjacent sibling selector selects all elements that are the adjacent siblings of a specified element. Sibling elements must have the same parent element, and “adjacent” means “immediately following”. The following example selects all p elements that are placed immediately after div elements:
 
@@ -104,7 +104,7 @@ div + p {
 
 ![Adjacent Sibling Selector]({{ site.url }}/images/posts/Adjacent-Sibling-Selector.png)
 
-### General Sibling Selector
+## General Sibling Selector
 
 The general sibling selector selects all elements that are siblings of a specified element. The following example selects all p elements that are siblings of div elements:
 
@@ -132,6 +132,6 @@ div ~ p {
 
 ![General Sibling Selector]({{ site.url }}/images/posts/General-Sibling-Selector.png)
 
-### Conclusion
+## Conclusion
 
 If you are a new learner or just improving your CSS skills, you need to know that CSS Combinators are used all the time by front-end developers. We have just seen very basic examples and most of the times they are used just like that. But you can also make different combinations using all of them.

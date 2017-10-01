@@ -113,6 +113,6 @@ In our current HTML, we have the directive (ng-controller), controller name (myC
 </html>
 ```
 
-### Conclusion
+## Conclusion
 
 We have just made a very simple app using AngularJS, but I believe that now you (if had never seen) have an idea of the power and simplicity of this great javascript framework. I did and recommend the free course of AngularJS. http://campus.codeschool.com/courses/shaping-up-with-angular-js

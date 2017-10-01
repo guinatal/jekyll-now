@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Javascript: querySelector vs getElementById
+title: querySelector vs getElementById
 ---
 
 I’ve realized that most of people usually don’t use the querySelector, thus I decided to write quick examples and the basic differences between querySelector and selectElementById as well as querySelectorAll and getElementsByClassName.
@@ -9,7 +9,7 @@ http://www.w3.org/TR/selectors-api/
 
 “Selectors, which are widely used in CSS, are patterns that match against elements in a tree structure. The Selectors API specification defines methods for retrieving Element nodes from the DOM by matching against a group of selectors. It is often desirable to perform DOM operations on a specific set of elements in a document. These methods simplify the process of acquiring specific elements, especially compared with the more verbose techniques defined and used in the past.”
 
-### querySelector vs selectElementById
+## querySelector vs selectElementById
 
 Let’s assume the following code:
 
@@ -33,7 +33,9 @@ var username = document.querySelector("#userForm #username");
 
 As you can see, using the querySelector the element that we want to select is much more specific and defined. The result is exactly the same.
 
-### querySelectorAll vs selectElementByClassName
+![getElementById vs querySelector]({{ site.url }}/images/posts/getElementById-image-1.png)
+
+## querySelectorAll vs selectElementByClassName
 
 Let’s assume the following code:
 
@@ -58,6 +60,8 @@ var products = document.querySelectorAll("#productForm .product");
 ```
 
 The result is almost the same, but the getElementsByClassName returns a HTMLCollection and the querySelectorAll returns a NodeList.
+
+![getElementsByClassName vs querySelectorAll]({{ site.url }}/images/posts/getElementById-image-2.png)
 
 Great! But these examples are very simple, so let’s try something a bit more difficult.
 
@@ -98,6 +102,6 @@ for (var i = 0; i < cells.length; i++)
 
 Very simple, isn’t it?
 
-### Conclusion
+## Conclusion
 
 The querySelector and querySelectorAll are really very powerful and work well when you need to select more specific elements. They are supported by most of current browsers. If you wish, here you can check the supported browsers: https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector#Browser_Compatibility

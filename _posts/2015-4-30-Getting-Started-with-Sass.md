@@ -7,7 +7,7 @@ Today I am going to talk about Sass and SCSS but there are others preprocessors 
 
 Sass is a preprocessor that is interpreted into CSS. In practice it means you will write codes in Sass language and it will be converted into CSS. It helps you reduce repetition with your CSS.
 
-### Sass vs SCSS
+## Sass vs SCSS
 
 Differences between Sass and SCSS. http://sass-lang.com/documentation/
 
@@ -15,7 +15,7 @@ Sass has two syntaxes. The most commonly used syntax is known as “SCSS” (for
 
 The second, older syntax is known as the indented syntax (or just “.sass”). Inspired by Haml’s terseness, it’s intended for people who prefer conciseness over similarity to CSS. Instead of brackets and semicolons, it uses the indentation of lines to specify blocks. Files in the indented syntax use the extension .sass.
 
-### Getting Started
+## Getting Started
 
 I considered writing about how to install the Sass but everything you need you can find here: http://sass-lang.com/install
 
@@ -105,7 +105,7 @@ SCSS SINTAX
 
 Note: in the code below we are using a mixin. But to use it, we need to create it. Otherwise our code will not compile.
 
-### Mixins
+## Mixins
 
 A mixin lets you make groups of CSS declarations that you want to reuse throughout your site. You can even pass in values to make your mixin more flexible. http://sass-lang.com/guide
 
@@ -130,7 +130,7 @@ SASS SINTAX
 
 SCSS SINTAX
 
-### Conclusion
+## Conclusion
 
 Writing codes in Sass or SCSS is really very simple and even if you have never seen them before, but you have a good knowledge of CSS, you will able to assimilate, understand and write codes.
 

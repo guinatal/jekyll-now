@@ -41,7 +41,7 @@ Wrapping your Javascript in a closure is a good habit!
 </html>
 ```
 
-### ngClick
+## ngClick
 
 The first thing we need to do is to create a button in our HTML code and through the ngClick directive call the click function. After that, we will define the click function inside the controller.
 
@@ -65,7 +65,7 @@ myApp.controller("myController", function($scope){
 
 Great. The button is working through the ngClick directive and the message expression we’ve created was replaced by “It’s working”.
 
-### ngRepeat
+## ngRepeat
 
 When we work with AngularJS, objects and arrays are used daily. Let’s continue our example including an array of objects and store the data inside the controller
 
@@ -113,6 +113,6 @@ What if we want to keep our list and print out the name, email and age?
 </ul>
 ```
 
-### Conclusion
+## Conclusion
 
 The ngClick and ngRepeat directives are extremely easy to work with. JSON works great with the ngRepeat directive and it’s very common to use. You can find these examples on GitHub https://github.com/guinatal/blog-examples
