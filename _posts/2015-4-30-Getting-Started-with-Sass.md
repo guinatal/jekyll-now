@@ -3,11 +3,11 @@ layout: post
 title: Getting Started with Sass
 ---
 
-![Sass]({{ site.baseurl }}/images/sass.png "Sass")
-
 Today I am going to talk about Sass and SCSS but there are others preprocessors available. For example: LESS.
 
 Sass is a preprocessor that is interpreted into CSS. In practice it means you will write codes in Sass language and it will be converted into CSS. It helps you reduce repetition with your CSS.
+
+![Sass]({{ site.baseurl }}/images/sass.png "Sass")
 
 ### Sass vs SCSS
 
@@ -39,7 +39,7 @@ $grey: #E5E5E5
 
 SCSS SYNTAX
 
-```scssme.png
+```scss
 $font-stack: Helvetica, sans-serif;
 $primary-color: #333;
 $font-small: 15px;
@@ -73,7 +73,7 @@ SASS SINTAX
 
   span.three
     font-size: $font-large
-``
+```
 
 SCSS SINTAX
 
@@ -128,7 +128,7 @@ SASS SINTAX
   -ms-border-radius: $radius;
   border-radius: $radius;
 }
-``
+```
 
 SCSS SINTAX
 
