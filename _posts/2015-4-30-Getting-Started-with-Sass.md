@@ -25,7 +25,7 @@ The first thing you need to know is that Sass allows you to use variables. It ke
 
 SASS SYNTAX
 
-```sass
+```css
 $font-stack: Helvetica, sans-serif
 $primary-color: #333
 $font-small: 15px
@@ -36,6 +36,16 @@ $grey: #E5E5E5
 ```
 
 SCSS SYNTAX
+
+```css
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+$font-small: 15px;
+$font-medium: 30px;
+$font-large: 60px;
+$blue: #186DEE;
+$grey: #E5E5E5;
+```
 
 Note: in the code below we are using a mixin. But to use it, we need to create it. Otherwise our code will not compile.
 
