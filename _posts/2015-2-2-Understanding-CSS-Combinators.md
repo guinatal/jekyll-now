@@ -128,11 +128,10 @@ div ~ p {
   <p>General Sibling Selector 5</p>
   <p>General Sibling Selector 6</p>
 </article>
-``
+```
 
 ![General Sibling Selector]({{ site.url }}/images/posts/General-Sibling-Selector.png)
 
 ### Conclusion
 
 If you are a new learner or just improving your CSS skills, you need to know that CSS Combinators are used all the time by front-end developers. We have just seen very basic examples and most of the times they are used just like that. But you can also make different combinations using all of them.
-```
