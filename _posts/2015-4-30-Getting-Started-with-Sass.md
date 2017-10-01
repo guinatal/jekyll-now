@@ -11,7 +11,7 @@ Sass is a preprocessor that is interpreted into CSS. In practice it means you wi
 
 ### Sass vs SCSS
 
-Differences between Sass and SCSS. http://sass-lang.com/documentation/
+Differences between Sass and SCSS. [http://sass-lang.com/documentation/](http://sass-lang.com/documentation/).
 
 Sass has two syntaxes. The most commonly used syntax is known as “SCSS” (for “Sassy CSS”), and is a superset of CSS3’s syntax. This means that every valid CSS3 stylesheet is valid SCSS as well. SCSS files use the extension .scss.
 
