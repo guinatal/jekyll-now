@@ -3,6 +3,8 @@ layout: post
 title: Getting Started with Sass
 ---
 
+![Sass]({{ site.baseurl }}/images/sass.png "Sass")
+
 Today I am going to talk about Sass and SCSS but there are others preprocessors available. For example: LESS.
 
 Sass is a preprocessor that is interpreted into CSS. In practice it means you will write codes in Sass language and it will be converted into CSS. It helps you reduce repetition with your CSS.
@@ -37,7 +39,7 @@ $grey: #E5E5E5
 
 SCSS SYNTAX
 
-```scss
+```scssme.png
 $font-stack: Helvetica, sans-serif;
 $primary-color: #333;
 $font-small: 15px;
@@ -47,6 +49,62 @@ $blue: #186DEE;
 $grey: #E5E5E5;
 ```
 
+The second thing you need to know is that with Sass your code will be much more organized visually as well. Sass and SCSS are written in a visual hierarchy.
+
+SASS SINTAX
+
+```scss
+.content
+  padding: 20px
+  background-color: $grey
+  +border-radius(5px)
+
+  &:hover
+    background-color: $blue
+
+  span
+    display: block
+
+  span.one
+    font-size: $font-small
+
+  span.two
+    font-size: $font-medium
+
+  span.three
+    font-size: $font-large
+``
+
+SCSS SINTAX
+
+```scss
+.content {
+  padding: 20px;
+  background-color: $grey;
+  @include border-radius(5px);
+
+  &:hover {
+    background-color: $blue;
+  }
+
+  span {
+    display: block;
+  }
+
+  span.one {
+    font-size: $font-small;
+  }
+
+  span.two {
+    font-size: $font-medium;
+  }
+
+  span.three {
+    font-size: $font-large;
+  }
+}
+```
+
 Note: in the code below we are using a mixin. But to use it, we need to create it. Otherwise our code will not compile.
 
 ### Mixins
@@ -54,6 +112,23 @@ Note: in the code below we are using a mixin. But to use it, we need to create i
 A mixin lets you make groups of CSS declarations that you want to reuse throughout your site. You can even pass in values to make your mixin more flexible. http://sass-lang.com/guide
 
 SASS SINTAX
+
+```sass
+=border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius: $radius
+  -ms-border-radius: $radius
+  border-radius: $radius
+```
+
+```scss
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+``
 
 SCSS SINTAX
 
