@@ -7,11 +7,9 @@ Today I am going to talk about Sass and SCSS but there are others preprocessors 
 
 Sass is a preprocessor that is interpreted into CSS. In practice it means you will write codes in Sass language and it will be converted into CSS. It helps you reduce repetition with your CSS.
 
-![Sass]({{ site.baseurl }}/images/sass.png "Sass")
-
 ### Sass vs SCSS
 
-Differences between Sass and SCSS. [http://sass-lang.com/documentation/](http://sass-lang.com/documentation/).
+Differences between Sass and SCSS. http://sass-lang.com/documentation/
 
 Sass has two syntaxes. The most commonly used syntax is known as “SCSS” (for “Sassy CSS”), and is a superset of CSS3’s syntax. This means that every valid CSS3 stylesheet is valid SCSS as well. SCSS files use the extension .scss.
 
