@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting Started with Sass
+title: First AngularJS App
 ---
 
 Hello! This is my first post and I have decided to write about AngularJS. I am still improving my skills with Angular and I would like to share my knowledge. Today, we are going to see how to start an AngularJS App and learn basic concepts like Module, Directives and Expressions.
