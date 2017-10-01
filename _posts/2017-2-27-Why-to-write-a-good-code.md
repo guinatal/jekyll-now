@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ES6: Why to write a good code?
+title: Why to write a good code?
 ---
 
 A few weeks ago, I came across this image above and because of that I’ve decided to write this post, showing the importance of writing a good code.
