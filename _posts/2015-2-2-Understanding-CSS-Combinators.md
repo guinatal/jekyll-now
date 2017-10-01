@@ -13,10 +13,10 @@ div ~ p {
 
 We have just seen the general sibling selector and it can be very useful. Let’s check it out! There are four combinators in CSS3.
 
-Descendant Selector
-Child Selector
-Adjacent Sibling Selector
-General Sibling Selector CSS3
+- Descendant Selector
+- Child Selector
+- Adjacent Sibling Selector
+- General Sibling Selector CSS3
 
 ![Combinators]({{ site.url }}/images/posts/Combinators.png)
 
@@ -128,6 +128,7 @@ div ~ p {
   <p>General Sibling Selector 5</p>
   <p>General Sibling Selector 6</p>
 </article>
+``
 
 ![General Sibling Selector]({{ site.url }}/images/posts/General-Sibling-Selector.png)
 
