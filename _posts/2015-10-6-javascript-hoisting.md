@@ -7,7 +7,7 @@ In the previous post, I wrote about strict mode in Javascript and how it is bene
 
 But, did you know that in Javascript you can declare a variable after accessing it?
 
-![Javascript Hoisting]({{ site.url }}/images/posts/hoisting.png)
+![Javascript Hoisting]({{ site.url }}/images/posts/hoisting.jpg)
 
 ## Hoisting
 
