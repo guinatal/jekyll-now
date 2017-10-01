@@ -25,7 +25,7 @@ The first thing you need to know is that Sass allows you to use variables. It ke
 
 SASS SYNTAX
 
-```css
+```sass
 $font-stack: Helvetica, sans-serif
 $primary-color: #333
 $font-small: 15px
@@ -37,7 +37,7 @@ $grey: #E5E5E5
 
 SCSS SYNTAX
 
-```css
+```scss
 $font-stack: Helvetica, sans-serif;
 $primary-color: #333;
 $font-small: 15px;
