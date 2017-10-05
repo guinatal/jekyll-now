@@ -93,8 +93,8 @@ In our current HTML, we have the directive (ng-controller), controller name (myC
     <!-- Expressions -->
     <article>
       <h1>Expressions</h1>
-      <p>8 + 5 = {{ 8 + 5 }}</p>
-      <p>100 / 2 = {{ 100 / 2 }}</p>
+      <p>8 + 5 = `{{ 8 + 5 }}`</p>
+      <p>100 / 2 = \{{ 100 / 2 }}</p>
       <p>100 * 2 + 1 = {{ 100 * 2 + 1 }}</p>
       <p>Currency = {{ 100 | currency }}</p>
     </article>
