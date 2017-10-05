@@ -46,7 +46,7 @@ Wrapping your Javascript in a closure is a good habit!
 The first thing we need to do is to create a button in our HTML code and through the ngClick directive call the click function. After that, we will define the click function inside the controller.
 
 {% raw %}
-```
+```html
 <button ng-click="click();">Click</button>
 
 {{ message }}
@@ -88,7 +88,7 @@ var json = [
 Now we’ve got a user array, simulating a JSON in the real life ;) How do we print out this data inside our webpage? We need to use the ngRepeat directive.
 
 {% raw %}
-```
+```html
 <ul>
   <li ng-repeat="user in users">{{ user.name }}</li>
 </ul>
