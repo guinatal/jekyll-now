@@ -109,7 +109,7 @@ Note: in the code below we are using a mixin. But to use it, we need to create i
 
 ## Mixins
 
-A mixin lets you make groups of CSS declarations that you want to reuse throughout your site. You can even pass in values to make your mixin more flexible. http://sass-lang.com/guide
+*A mixin lets you make groups of CSS declarations that you want to reuse throughout your site. You can even pass in values to make your mixin more flexible.* http://sass-lang.com/guide
 
 SASS SINTAX
 

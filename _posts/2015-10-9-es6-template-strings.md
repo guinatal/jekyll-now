@@ -9,7 +9,7 @@ Quick post about template strings. If you are learning Ecmascript 6, you should 
 
 ## About
 
-Template strings are string literals allowing embedded expressions. You can use multi-line strings and string interpolation features with them. https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/template_strings
+*Template strings are string literals allowing embedded expressions. You can use multi-line strings and string interpolation features with them.* https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/template_strings
 
 Template strings are enclosed by the back-tick (` `). So if you don’t have been using the back-tick, you should find it now on your keyboard, it will be very used from now.
 

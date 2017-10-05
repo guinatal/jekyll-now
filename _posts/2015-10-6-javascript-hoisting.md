@@ -11,7 +11,7 @@ But, did you know that in Javascript you can declare a variable after accessing 
 
 ## Hoisting
 
-In JavaScript, functions and variables are hoisted. Hoisting is JavaScript’s behavior of moving declarations to the top of a scope (the global scope or the current function scope). https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
+*In JavaScript, functions and variables are hoisted. Hoisting is JavaScript’s behavior of moving declarations to the top of a scope (the global scope or the current function scope).* https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
 
 ## Examples
 

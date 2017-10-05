@@ -9,7 +9,7 @@ I’ve realized that most of people usually don’t use the querySelector, thus 
 
 http://www.w3.org/TR/selectors-api/
 
-“Selectors, which are widely used in CSS, are patterns that match against elements in a tree structure. The Selectors API specification defines methods for retrieving Element nodes from the DOM by matching against a group of selectors. It is often desirable to perform DOM operations on a specific set of elements in a document. These methods simplify the process of acquiring specific elements, especially compared with the more verbose techniques defined and used in the past.”
+*“Selectors, which are widely used in CSS, are patterns that match against elements in a tree structure. The Selectors API specification defines methods for retrieving Element nodes from the DOM by matching against a group of selectors. It is often desirable to perform DOM operations on a specific set of elements in a document. These methods simplify the process of acquiring specific elements, especially compared with the more verbose techniques defined and used in the past.”*
 
 ## querySelector vs selectElementById
 
