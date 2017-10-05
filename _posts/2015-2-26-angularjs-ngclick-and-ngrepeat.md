@@ -45,11 +45,13 @@ Wrapping your Javascript in a closure is a good habit!
 
 The first thing we need to do is to create a button in our HTML code and through the ngClick directive call the click function. After that, we will define the click function inside the controller.
 
+{% raw %}
 ```
 <button ng-click="click();">Click</button>
 
 {{ message }}
 ```
+{% endraw %}
 
 ```javascript
 myApp.controller("myController", function($scope){
@@ -85,15 +87,18 @@ var json = [
 
 Now we’ve got a user array, simulating a JSON in the real life ;) How do we print out this data inside our webpage? We need to use the ngRepeat directive.
 
+{% raw %}
 ```
 <ul>
   <li ng-repeat="user in users">{{ user.name }}</li>
 </ul>
 ```
+{% endraw %}
 
 The page has been printed out with all the names. But we need to print out the email as well as the age. What do you think about changing the list to a table? It will be easy.
 
-```
+{% raw %}
+```html
 <table>
   <tr ng-repeat="user in users">
     <td>{{ user.name }}</td>
@@ -102,16 +107,19 @@ The page has been printed out with all the names. But we need to print out the e
   </tr>
 </table>
 ```
+{% endraw %}
 
 What if we want to keep our list and print out the name, email and age?
 
-```
+{% raw %}
+```html
 <ul>
   <li ng-repeat-start="user in users">{{ user.name }}</li>
   <li>{{ user.age }}</li>
   <li ng-repeat-end>{{ user.email }}</li>
 </ul>
 ```
+{% endraw %}
 
 ## Conclusion
 

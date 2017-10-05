@@ -21,6 +21,7 @@ Hello! This is my first post and I have decided to write about AngularJS. I am s
 
 The first thing we need to do is to import the AngularJS library and initialize the application through the ng-app directive. After that, the app is ready to read Angular codes.
 
+{% raw %}
 ```html
 <!DOCTYPE html>
 <html ng-app> <!-- Directive -->
@@ -41,6 +42,7 @@ The first thing we need to do is to import the AngularJS library and initialize 
   </body>
 </html>
 ```
+{% endraw %}
 
 AngularJS extends HTML attributes with Directives, and binds data to HTML with Expressions. In the following link you have a list of directives https://docs.angularjs.org/api/ng#directive
 
@@ -94,8 +96,8 @@ In our current HTML, we have the directive (ng-controller), controller name (myC
     <!-- Expressions -->
     <article>
       <h1>Expressions</h1>
-      <p>8 + 5 = `{{ 8 + 5 }}`</p>
-      <p>100 / 2 = \{{ 100 / 2 }}</p>
+      <p>8 + 5 = {{ 8 + 5 }}</p>
+      <p>100 / 2 = {{ 100 / 2 }}</p>
       <p>100 * 2 + 1 = {{ 100 * 2 + 1 }}</p>
       <p>Currency = {{ 100 | currency }}</p>
     </article>
