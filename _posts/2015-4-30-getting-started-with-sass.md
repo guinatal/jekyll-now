@@ -7,7 +7,7 @@ Today I am going to talk about Sass and SCSS but there are others preprocessors 
 
 Sass is a preprocessor that is interpreted into CSS. In practice it means you will write codes in Sass language and it will be converted into CSS. It helps you reduce repetition with your CSS.
 
-![Sass]({{ site.url }}/images/posts/sass.png)
+![Getting Started with Sass]({{ site.url }}/images/posts/sass.png)
 
 ## Sass vs SCSS
 

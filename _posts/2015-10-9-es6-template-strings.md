@@ -5,7 +5,7 @@ title: ES6 Template strings
 
 Quick post about template strings. If you are learning Ecmascript 6, you should read this post. This is the new way to embed variables in texts.
 
-![Template strings]({{ site.url }}/images/posts/template-strings.png)
+![ES6 Template strings]({{ site.url }}/images/posts/template-strings.png)
 
 ## About
 

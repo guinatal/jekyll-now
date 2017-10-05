@@ -5,7 +5,7 @@ title: Why to write a good code?
 
 A few weeks ago, I came across this image above and because of that I’ve decided to write this post, showing the importance of writing a good code.
 
-![Front-end vs Back-end]({{ site.url }}/images/posts/font-end-vs-back-end.jpg)
+![Why to write a good code?]({{ site.url }}/images/posts/font-end-vs-back-end.jpg)
 
 ## What does “a good code” mean?
 

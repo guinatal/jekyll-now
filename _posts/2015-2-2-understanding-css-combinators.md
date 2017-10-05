@@ -18,7 +18,7 @@ We have just seen the general sibling selector and it can be very useful. Let’
 - Adjacent Sibling Selector
 - General Sibling Selector CSS3
 
-![Combinators]({{ site.url }}/images/posts/Combinators.png)
+![Understanding CSS Combinators]({{ site.url }}/images/posts/Combinators.png)
 
 ## Descendant Selector
 

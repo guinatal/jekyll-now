@@ -5,7 +5,7 @@ title: Working with images on a Retina Display
 
 Recently I bought a macbook pro with retina display and I realized that in some websites the images were appearing fuzzy and with low resolution. It occurs because the retina display contains more pixels in the same physical size, and a lot of websites are not prepared to it.
 
-![Retina Display Images]({{ site.url }}/images/posts/retina-display-images.png)
+![Working with images on a Retina Display]({{ site.url }}/images/posts/retina-display-images.png)
 
 ## Pixels
 

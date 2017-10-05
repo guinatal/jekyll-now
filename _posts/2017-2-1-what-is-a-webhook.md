@@ -7,7 +7,7 @@ A few days ago I needed to consume a webhook and it caused some confusions in my
 
 And that’s why I am here now writting this post (:
 
-![Webhook]({{ site.url }}/images/posts/webhook.png)
+![What is a WebHook?]({{ site.url }}/images/posts/webhook.png)
 
 ## Definition
 
