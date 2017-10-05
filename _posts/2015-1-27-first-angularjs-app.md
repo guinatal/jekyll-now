@@ -21,7 +21,7 @@ Hello! This is my first post and I have decided to write about AngularJS. I am s
 
 The first thing we need to do is to import the AngularJS library and initialize the application through the ng-app directive. After that, the app is ready to read Angular codes.
 
-```angular
+```html
 <!DOCTYPE html>
 <html ng-app> <!-- Directive -->
   <head>
@@ -31,7 +31,7 @@ The first thing we need to do is to import the AngularJS library and initialize 
     <h1>First AngularJS App</h1>
 
     <!-- Expressions -->
-    <p>8 + 5 = {{ 8 + 5 }}</p>
+    <p>8 + 5 = {{ 8 + 5 | angular }}</p>
     <p>100 / 2 = {{ 100 / 2 }}</p>
     <p>100 * 2 + 1 = {{ 100 * 2 + 1 }}</p>
     <p>Currency = {{ 100 | currency }}</p>
