@@ -81,6 +81,7 @@ It is time to build our application file. Let’s create the app.js file and imp
 
 In our current HTML, we have the directive (ng-controller), controller name (myController) and an Alias (controller).
 
+{% raw %}
 ```html
 <!DOCTYPE html>
 <html ng-app="myApp"> <!-- Directive -->
@@ -114,6 +115,7 @@ In our current HTML, we have the directive (ng-controller), controller name (myC
   </body>
 </html>
 ```
+{% endraw %}
 
 ## Conclusion
 
