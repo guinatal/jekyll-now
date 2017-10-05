@@ -21,7 +21,7 @@ Hello! This is my first post and I have decided to write about AngularJS. I am s
 
 The first thing we need to do is to import the AngularJS library and initialize the application through the ng-app directive. After that, the app is ready to read Angular codes.
 
-```
+```angular
 <!DOCTYPE html>
 <html ng-app> <!-- Directive -->
   <head>
@@ -81,7 +81,7 @@ It is time to build our application file. Let’s create the app.js file and imp
 
 In our current HTML, we have the directive (ng-controller), controller name (myController) and an Alias (controller).
 
-```javascript
+```html
 <!DOCTYPE html>
 <html ng-app="myApp"> <!-- Directive -->
   <head>
