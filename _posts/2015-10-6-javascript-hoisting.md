@@ -72,4 +72,4 @@ Class declarations are not hoisted too. You first need to declare and then acces
 
 ## Conclusion
 
-Hoisting is an unknown or overlooked behavior of JavaScript (to many developers). All you need to do to avoid bugs is always declare all variables at the beginning of every scope. Of course, always using the javascript strict mode. If you didn’t see my post about strict mode, check it out: http://blog.guinatal.com/javascript-use-strict/
+Hoisting is an unknown or overlooked behavior of JavaScript (to many developers). All you need to do to avoid bugs is always declare all variables at the beginning of every scope. Of course, always using the javascript strict mode. If you didn’t see my post about strict mode, check it out: https://guinatal.github.io/javascript-use-script/
