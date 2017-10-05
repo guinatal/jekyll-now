@@ -39,7 +39,7 @@ Now, you just need to put the class fade-in in the element that you want to crea
 
 To see the final result, click on the Result tab below. You could also take a look on the CSS tab, I added some codes for better compatibility.
 
-```css
+```html
 <h1>Hello World</h1>
 <div class="circle fade-in"></div>
 ```
