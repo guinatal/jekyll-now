@@ -7,7 +7,7 @@ I have a few friends (most are developers) who are starting a new project or eve
 
 ## Should I choose .NET Core or .NET Framework?
 
-![.NET Core]({{ site.url }}/images/posts/dotnet-core-chart.PNG)
+![.NET Core]({{ site.url }}/images/posts/dotnet-core.PNG)
 
 I would say that you should always go for .NET Core, if you can!
 
