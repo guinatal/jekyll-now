@@ -3,7 +3,7 @@ layout: post
 title: The choice between .NET Core and .NET Framework
 ---
 
-I have a few friends (most are developers) who are starting a new project or even working on an existing project have encountered the following question:
+I have a few friends (most are developers) who are starting a new project or even working on an existing project that have came across the following question:
 
 ## Should I choose .NET Core or .NET Framework?
 
